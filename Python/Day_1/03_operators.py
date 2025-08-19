@@ -35,3 +35,16 @@ x = True
 y = True
 
 print("And:", x and y)
+print("Or:", x or y)
+print("Not:", not x)
+
+# Membership Operators
+
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3]
+
+print(3 in numbers)
+print(5 in numbers)
+
+print("apple" in fruits)
+print("orange" in fruits)
