@@ -29,4 +29,4 @@ age = 23
 height = 1.80
 weight = 70
 
-print(f"Name: {name}, Age: {age}, Height: {height}, Weight: {weight}")
+print(f"Name: {name.upper()}, Age: {age}, Height: {height}, Weight: {weight}")
