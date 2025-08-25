@@ -11,5 +11,5 @@ total = item_1 + item_2 + item_3
 
 average_price = total / 3
 
-print(f"Total Bill: ${total:.2f}")
+print(f"Total Bill: Rs.{total:.2f}")
 print(f"Average Price per Item: ${average_price:.2f}")

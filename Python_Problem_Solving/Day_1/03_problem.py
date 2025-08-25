@@ -12,4 +12,4 @@ petrol_price = float(input("Enter the petrol price per liter: "))
 
 fuel_cost = (distance/mileage) * petrol_price
 
-print(f"Total cost of fuel: ${fuel_cost:.2f}")
+print(f"Total cost of fuel: Rs.{fuel_cost:.2f}")
