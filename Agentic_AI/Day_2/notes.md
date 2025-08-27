@@ -1,0 +1,11 @@
+Large Language Models (LLMs) function as the core "brain" for AI agents, driving planning, reasoning, and decision-making. Their fundamental operation is next-token prediction: given a sequence of words (tokens), an LLM probabilistically predicts the most likely next token.
+
+These models are termed "large" due to their billions or even trillions of parameters. This vast scale enables emergent capabilities—new skills that appear as models grow beyond certain thresholds—such as improved translation, summarization, and sentiment analysis. Key milestones in their development include the 2017 Transformer architecture, GPT-2 (1.5 billion parameters), GPT-3 (175 billion parameters), and GPT-4 (reportedly exceeding one trillion parameters). This exponential scaling of parameters directly correlates with enhanced accuracy and new abilities.
+
+LLMs acquire language understanding implicitly. By focusing on next-token prediction from massive datasets, they naturally learn the form (syntax) and meaning (semantics) of language without explicit instruction. This emergent understanding allows a single LLM to perform various tasks that previously required specialized models.
+
+The process of building an LLM involves two main stages:
+1.  **Pre-training:** The model learns from vast, unlabeled datasets (internet text, books, Wikipedia) to predict next tokens, developing a general understanding of language.
+2.  **Fine-tuning:** The pre-trained model is further refined using labeled data to enhance performance on specific tasks or improve its ability to follow instructions.
+
+LLMs unify multiple natural language processing (NLP) tasks, offering a versatile and efficient solution. For AI agents, LLMs are crucial for interpreting natural language inputs, understanding tool outputs, and generating coherent responses, enabling complex reasoning and interaction. Practical implementation involves using API keys from providers like OpenAI and Hugging Face to programmatically interact with these models. Understanding these foundational principles is essential for developing intelligent agents.
