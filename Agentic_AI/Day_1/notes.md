@@ -1,23 +1,49 @@
-### Understanding what are Agents
+### What Are AI Agents?
 
-*   An AI agent is something that takes you from Point A to Point B (by adding value i.e. saving time or money).
-*   It has the capabilities like decision making, planning, reasoning, and tool calling.
-*   AI Agents interact with the external environment and perform continuous learning via human-in-the-loop feedback.
-*   Memory is a key component of an AI agent for improvement and avoiding repetitive mistakes.
+**Definition:** An AI agent helps you go from Point A → Point B by creating value (saving time, reducing costs, or improving results).
 
-### Industry Use Cases of AI Agents: Sales Team Automation Workflow
+**Core Capabilities:**
 
-*   Agent automates prospect discovery, cold emailing, scheduling, call transcription, sentiment analysis, and lead classification.
-*   Tools needed: LinkedIn API, Google Sheets, Salesforce, Slack, Zoom, Twilio, etc.
-*   Value: Cost reduction, increased outreach, and improved lead conversion.
+*   Decision-making
+*   Planning
+*   Reasoning
+*   Tool usage (e.g., APIs, databases, apps)
 
-### Role of Language Model in AI Agents
+**Key Features:**
 
-*   Transformer architecture revolutionized language understanding, enabling advanced LLMs.
-*   LLMs act as the brain of Agents, and tools form the body.
-*   Agents combine LLM + tools to perform tasks + memory + feedback loop.
+*   Interacts with the external environment
+*   Learns continuously via human-in-the-loop feedback
+*   Uses memory to improve over time and avoid repeating mistakes
 
-### Level of Agency in AI Agents
+#### 🔹 Industry Use Case: Sales Team Automation
 
-*   Agency level is the degree of control: from simple tool calling to multi-agent workflows.
-*   Higher agency correlates with greater value creation.
+**What the Agent Does:**
+
+*   Finds new prospects
+*   Sends personalized cold emails
+*   Schedules meetings
+*   Transcribes calls
+*   Analyzes sentiment
+*   Classifies leads
+
+**Tools Involved:** LinkedIn API, Google Sheets, Salesforce, Slack, Zoom, Twilio, etc.
+
+**Value Created:**
+
+*   Lower operational cost
+*   Wider outreach
+*   Higher lead conversion
+
+#### 🔹 Role of Language Models (LLMs) in Agents
+
+*   **LLMs are the "brain":** Built on transformer architecture → enables deep language understanding.
+*   **Tools are the "body":** APIs, databases, integrations used to take real-world actions.
+*   **Complete Agent = LLM (reasoning) + Tools (execution) + Memory (context) + Feedback (learning)**
+
+#### 🔹 Levels of Agency
+
+*   **Low Agency:** Simple tool calling (e.g., one-off API queries).
+*   **Medium Agency:** Task orchestration (handling multi-step workflows).
+*   **High Agency:** Multi-agent collaboration with autonomy and optimization.
+
+**Insight:** Higher agency → more autonomy → greater business value.
