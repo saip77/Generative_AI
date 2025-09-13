@@ -1,45 +1,104 @@
-### Learning Roadmap
+# 18-Day GenAI Roadmap (Sep 13 – Sep 30, 2025)
 
-#### Section 1: Introduction to Generative AI
+## Week 1: Foundations + Core APIs
 
-- What is Generative AI?
-- How applications like ChatGPT and DeepSeek work?
-- Explanation of various models like DALL-E, Stable Diffusion, and Midjourney
+🎯 **Goal:** Build a strong foundation in Node.js + OpenAI/Gemini APIs + LLM fundamentals.
 
+**Sep 13 (Sat) – Kickoff + Setup**
+*   Install Node.js, Express.js, LangChain.js, LlamaIndex.js.
+*   Explore OpenAI & Gemini SDKs (setup API keys).
+*   First API call: text generation with OpenAI.
+*   **Hands-on:** Express endpoint that returns a simple LLM response.
 
-#### Section 2: Tool Setup
+**Sep 14 (Sun) [Light] – Theory**
+*   How LLMs work (transformers, embeddings, attention).
+*   Tokens, context windows, temperature, top-p.
+*   Reading: OpenAI & Gemini model families.
 
-- Instructions on setting up the necessary tools for the course.
-- Guidance on using OpenAI models and Gemini.
-- Steps to install NPM packages and use TypeScript.
+**Sep 15 (Mon) – Chat Completion APIs**
+*   Build a chatbot with OpenAI Chat API.
+*   Compare with Gemini Chat API.
+*   **Hands-on:** Multi-turn Express chatbot API.
 
+**Sep 16 (Tue) – LangChain Intro**
+*   Basics of LangChain.js: Chains, Prompts, Memory.
+*   Implement a conversational memory chain.
+*   **Hands-on:** Q&A bot with LangChain memory.
 
-#### Section 3: Introduction to Open AI for Node.js
+**Sep 17 (Wed) – RAG Foundations**
+*   What is RAG, why retrieval matters.
+*   Intro to embeddings: OpenAI + Gemini.
+*   Vector DBs: Pinecone / Weaviate / pgvector.
+*   **Hands-on:** Embed + store + retrieve docs with OpenAI embeddings.
 
-- Integrating OpenAI with NodeJS applications.
-- Detailed look at models like GPT-4, GPT-3.5, DALL-E, and Whisper.
-- Basic coding examples for a better understanding of the concepts.
+**Sep 18 (Thu) [Light] – Theory**
+*   Context window & retrieval strategies.
+*   RAG pipeline architecture.
+*   LLM evaluation metrics (hallucination, factuality).
 
+## Week 2: Deep Dive into RAG + Indexing
 
-#### Section 4: Open AI hands-on
+🎯 **Goal:** Build full RAG pipelines, experiment with hybrid search & LlamaIndex.
 
-- Building applications like chatbots to practice using OpenAI.
-- Implementing advanced features like streaming and memory.
-- Working on a tools generator project.
+**Sep 19 (Fri) [Light] – Theory**
+*   How LlamaIndex complements LangChain.
+*   Document loaders, indices, query engines.
+*   Hybrid RAG (semantic + keyword search).
 
+**Sep 20 (Sat) – Vector Databases Hands-on**
+*   Setup a vector DB (choose Pinecone / Weaviate / local pgvector).
+*   Ingest docs, run similarity search.
+*   **Hands-on:** Express route for semantic search.
 
-#### Section 5: Core AI Concepts
+**Sep 21 (Sun) – LangChain RAG**
+*   Build a RAG pipeline with LangChain retriever.
+*   Connect retriever → LLM.
+*   **Hands-on:** Q&A on custom documents.
 
-- Kay AI concepts like embeddings.
-- Understanding how to convert text to numeric vectors.
-- Exploring similarity searches and vector databases.
+**Sep 22 (Mon) [Light] – Theory**
+*   Evaluation of RAG systems.
+*   Vector DB trade-offs (latency, scale).
+*   Chunking strategies (sliding windows, semantic splits).
 
+**Sep 23 (Tue) [Light] – Theory**
+*   Chain of Thought (CoT) reasoning.
+*   Prompt engineering strategies.
+*   Zero-shot, few-shot, tool use prompts.
 
-#### Section 6: Langchain and LLMs
+**Sep 24 (Wed) [Light] – Theory**
+*   Fine-tuning vs adapters vs RAG.
+*   Model orchestration with multiple providers.
+*   Cost optimization for LLM APIs.
 
-- Introduction to LangChain and LangGraph.
-- Understanding the workings of Large Language Models (LLMs).
-- Building custom LLM applications and exploring other models like Llama 3.
+**Sep 25 (Thu) [Light] – Theory**
+*   MCP (Model Context Protocol) intro.
+*   Why MCP matters for tool interop & retrieval.
+*   Future of agentic systems.
 
+**Sep 26 (Fri) – LlamaIndex RAG**
+*   Use LlamaIndex to index local PDFs.
+*   Query engine → OpenAI.
+*   **Hands-on:** LlamaIndex Express API.
 
-#### Section 7: Projects on Generative AI
+## Week 3: Advanced Architectures + MCP
+
+🎯 **Goal:** Hybrid RAG, multi-model use, and MCP integration.
+
+**Sep 27 (Sat) – Hybrid RAG**
+*   Combine keyword + semantic + reranking retrieval.
+*   **Hands-on:** Hybrid retriever pipeline (LangChain + LlamaIndex).
+
+**Sep 28 (Sun) – Tool Use + Multi-LLM Orchestration**
+*   LangChain Agents + Tools.
+*   Switching between OpenAI & Gemini dynamically.
+*   **Hands-on:** Agent that chooses between models for tasks.
+
+**Sep 29 (Mon) – MCP in Practice**
+*   Explore Model Context Protocol SDK.
+*   Connect external knowledge sources.
+*   **Hands-on:** Simple MCP server + Node client.
+
+**Sep 30 (Tue) – Wrap-up Integration**
+*   Unify: Express app with LangChain + LlamaIndex + VectorDB + MCP.
+*   Run end-to-end hybrid RAG chatbot with multi-model backend.
+*   Document setup + architecture notes.
